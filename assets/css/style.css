@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
 	scroll-behavior: smooth;
 	background-color: #121214;
 	-webkit-perspective: 700px;
@@ -16,23 +15,24 @@ html {
 }
 
 .hgn-btn {
-    margin: 2px;
-    padding: 5px;
-    width: 100px;
-    border: 2px solid #f7f7f7;
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    overflow:hidden;
-    transition: .3s;
-    text-decoration: none;
-    color: white;
+	margin: 2px;
+	padding: 5px;
+	width: 100px;
+	border: 2px solid #f7f7f7;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	overflow: hidden;
+	transition: .3s;
+	text-decoration: none;
+	color: white;
 }
+
 .hgn-btn:hover {
-    transition: .5s;
-    color: black;
-    text-decoration: none;
-    background: #f7f7f7;
+	transition: .5s;
+	color: black;
+	text-decoration: none;
+	background: #f7f7f7;
 }
 
 .hgn-btn:active {
@@ -42,4 +42,21 @@ html {
 .hgn-lg {
 	pointer-events: none;
 	width: 120px;
+}
+
+.card-tal .card-tal-con {
+	background-color: #42347ecb;
+	height: 100%;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.card-tal button {
+	background-color: #41347E;
+	color: white
+}
+
+.hgn-bg {
+    background-color: #121214;
 }
